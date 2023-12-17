@@ -4,7 +4,8 @@ import crafttweaker.entity.IEntity;
 import crafttweaker.entity.IEntityDefinition;
 
 events.onEntityJoinWorld(function(event as EntityJoinWorldEvent){
-    if (event.entity.definition.id == <entity:minecraft:villager>.id){
+    val def as IEntityDefinition = event.entity.definition;
+    if (!isNull(def) && def.id == <entity:minecraft:villager>.id){
         event.cancel();
     }
 });
