@@ -17,39 +17,5 @@
 		type: "item",
 		item: "minecraft:log",
 		count: 64
-	},
-	{
-		uid: "1081f0a5",
-		type: "item",
-		item: {
-			id: "storagedrawers:basicdrawers",
-			tag: {
-				tile: {
-					id: "storagedrawers:basicdrawers.1",
-					x: 149,
-					y: 4,
-					z: 147,
-					ForgeCaps: {},
-					Dir: 4b,
-					Upgrades: [{
-						id: "storagedrawers:upgrade_creative",
-						Count: 1,
-						Damage: 1s,
-						Slot: 0b
-					}],
-					Drawers: [{
-						Item: {
-							id: "minecraft:sapling",
-							Count: 1,
-							Damage: 0s
-						},
-						Count: 0
-					}],
-					Cap: 32,
-					Mat: "oak"
-				},
-				material: "oak"
-			}
-		}
 	}]
 }

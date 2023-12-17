@@ -1,0 +1,45 @@
+{
+	x: 3.0d,
+	y: 0.0d,
+	text: [
+		"什么？你问我为什么是7个蚕而不是8个？因为我用钩子勾一棵树掉了这么多，就是这样。"
+	],
+	dependencies: [
+		"aa340c4e"
+	],
+	tasks: [{
+		uid: "835d1545",
+		type: "item",
+		items: [{
+			id: "exnihilocreatio:crook_wood",
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			}
+		}],
+		consume_items: true,
+		ignore_damage: true,
+		ignore_nbt: 1b
+	}],
+	rewards: [{
+		uid: "3a50e330",
+		type: "item",
+		item: {
+			id: "exnihilocreatio:crook_blaze",
+			tag: {
+				Unbreakable: 1b
+			},
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {
+					AS_Amulet_HolderMost: 2906828210824956519L,
+					AS_Amulet_HolderLeast: -7511792299273322319L
+				}
+			}
+		}
+	},
+	{
+		uid: "86928b45",
+		type: "item",
+		item: "exnihilocreatio:item_material 1 2",
+		count: 7
+	}]
+}

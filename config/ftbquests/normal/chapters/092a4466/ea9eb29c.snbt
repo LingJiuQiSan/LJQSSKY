@@ -1,0 +1,17 @@
+{
+	x: 1.5d,
+	y: -1.5d,
+	dependencies: [
+		"80c38684"
+	],
+	tasks: [{
+		uid: "979f2833",
+		type: "checkmark",
+		title: "温馨提示：请合理调整加速火把的范围以及速度否则会导致大幅掉刻！"
+	}],
+	rewards: [{
+		uid: "2cfa678f",
+		type: "item",
+		item: "torcherino:blocktorcherino"
+	}]
+}

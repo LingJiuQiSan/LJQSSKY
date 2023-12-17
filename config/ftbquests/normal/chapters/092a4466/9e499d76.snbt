@@ -1,11 +1,11 @@
 {
-	x: 0.0d,
-	y: -3.0d,
+	x: -1.5d,
+	y: -1.5d,
 	text: [
 		"我推荐种橡木树苗"
 	],
 	dependencies: [
-		"f33692d7"
+		"80c38684"
 	],
 	tasks: [{
 		uid: "9eaa7eed",
