@@ -1,0 +1,25 @@
+{
+	x: 0.0d,
+	y: 3.0d,
+	can_repeat: true,
+	dependencies: [
+		"6c59ab98"
+	],
+	tasks: [{
+		uid: "63594bce",
+		type: "checkmark",
+		title: "我这里有好康的"
+	}],
+	rewards: [{
+		uid: "79f08f88",
+		type: "item",
+		item: {
+			id: "appliedenergistics2:facade",
+			tag: {
+				item: "avaritia:block_resource",
+				damage: 1
+			}
+		},
+		count: 64
+	}]
+}

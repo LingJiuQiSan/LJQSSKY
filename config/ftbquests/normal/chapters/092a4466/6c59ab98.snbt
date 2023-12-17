@@ -1,0 +1,53 @@
+{
+	x: 0.0d,
+	y: 1.5d,
+	dependencies: [
+		"80c38684"
+	],
+	tasks: [{
+		uid: "107200ab",
+		type: "checkmark",
+		title: "送你点AE！"
+	}],
+	rewards: [{
+		uid: "a3c2066a",
+		type: "item",
+		item: "appliedenergistics2:creative_energy_cell"
+	},
+	{
+		uid: "4f8983f4",
+		type: "item",
+		team_reward: true,
+		item: "appliedenergistics2:controller"
+	},
+	{
+		uid: "d1300051",
+		type: "item",
+		team_reward: true,
+		item: "appliedenergistics2:drive"
+	},
+	{
+		uid: "bb83a464",
+		type: "item",
+		team_reward: true,
+		item: {
+			id: "appliedenergistics2:storage_cell_64k",
+			tag: {},
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			}
+		},
+		count: 10
+	},
+	{
+		uid: "bcfbc560",
+		type: "item",
+		item: "appliedenergistics2:part 1 35",
+		count: 64
+	},
+	{
+		uid: "b429d2e1",
+		type: "item",
+		item: "appliedenergistics2:part 1 360"
+	}]
+}

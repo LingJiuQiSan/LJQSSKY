@@ -1,0 +1,803 @@
+{
+	x: -1.5d,
+	y: 0.0d,
+	text: [
+		"芜湖起飞！不过飞太快似乎也不是一件好事？"
+	],
+	dependencies: [
+		"80c38684"
+	],
+	tasks: [{
+		uid: "1bf46e71",
+		type: "checkmark",
+		title: "送你套盔甲！"
+	}],
+	rewards: [{
+		uid: "ec98f82c",
+		type: "item",
+		item: {
+			id: "conarm:helmet",
+			tag: {
+				TinkerData: {
+					Materials: [
+						"infinity_metal",
+						"pigiron",
+						"chaotic_metal"
+					],
+					Modifiers: [
+						"leveling_armor",
+						"concealed_armor"
+					]
+				},
+				Stats: {
+					Durability: 9055,
+					Defense: 93.0f,
+					Toughness: 1.0f,
+					FreeModifiers: 3
+				},
+				StatsOriginal: {
+					Durability: 9055,
+					Defense: 93.0f,
+					Toughness: 1.0f,
+					FreeModifiers: 3
+				},
+				Unbreakable: 1b,
+				ConArmEquipmentSlot: 5,
+				Modifiers: [{
+					CanonicalTraitLevel: 2,
+					identifier: "tconevo.gale_force_armor",
+					color: -11757164,
+					level: 3
+				},
+				{
+					identifier: "tconevo.null_almighty_armor",
+					color: -11757164,
+					level: 1
+				},
+				{
+					identifier: "tconevo.celestial_armor",
+					color: -11757164,
+					level: 1
+				},
+				{
+					identifier: "tconevo.infinitum",
+					color: -11757164,
+					level: 1
+				},
+				{
+					identifier: "tconevo.eternity_armor",
+					color: -11757164,
+					level: 1
+				},
+				{
+					identifier: "tasty_armor",
+					color: -1073509,
+					level: 1
+				},
+				{
+					identifier: "heavy_armor",
+					color: -10066330,
+					level: 1
+				},
+				{
+					identifier: "leveling_armor",
+					color: 16777215,
+					level: 1
+				},
+				{
+					identifier: "concealed_armor",
+					color: 16774604,
+					level: 1
+				}],
+				Traits: [
+					"tconevo.gale_force1_armor",
+					"tconevo.null_almighty_armor",
+					"tconevo.celestial_armor",
+					"tconevo.infinitum",
+					"tconevo.eternity_armor",
+					"tasty_armor",
+					"tconevo.gale_force2_armor",
+					"heavy_armor",
+					"leveling_armor",
+					"concealed_armor"
+				]
+			},
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {
+					AS_Amulet_HolderMost: 2906828210824956519L,
+					AS_Amulet_HolderLeast: -7511792299273322319L
+				}
+			}
+		}
+	},
+	{
+		uid: "4fef249b",
+		type: "item",
+		item: {
+			id: "conarm:chestplate",
+			tag: {
+				TinkerData: {
+					Materials: [
+						"infinity_metal",
+						"pigiron",
+						"chaotic_metal"
+					],
+					Modifiers: [
+						"leveling_armor",
+						"concealed_armor"
+					]
+				},
+				Stats: {
+					Durability: 13171,
+					Defense: 93.0f,
+					Toughness: 1.0f,
+					FreeModifiers: 3
+				},
+				StatsOriginal: {
+					Durability: 13171,
+					Defense: 93.0f,
+					Toughness: 1.0f,
+					FreeModifiers: 3
+				},
+				Unbreakable: 1b,
+				ConArmEquipmentSlot: 4,
+				Modifiers: [{
+					CanonicalTraitLevel: 2,
+					identifier: "tconevo.gale_force_armor",
+					color: -11757164,
+					level: 3
+				},
+				{
+					identifier: "tconevo.null_almighty_armor",
+					color: -11757164,
+					level: 1
+				},
+				{
+					identifier: "tconevo.celestial_armor",
+					color: -11757164,
+					level: 1
+				},
+				{
+					identifier: "tconevo.infinitum",
+					color: -11757164,
+					level: 1
+				},
+				{
+					identifier: "tconevo.eternity_armor",
+					color: -11757164,
+					level: 1
+				},
+				{
+					identifier: "tasty_armor",
+					color: -1073509,
+					level: 1
+				},
+				{
+					identifier: "heavy_armor",
+					color: -10066330,
+					level: 1
+				},
+				{
+					identifier: "leveling_armor",
+					color: 16777215,
+					level: 1
+				},
+				{
+					identifier: "concealed_armor",
+					color: 16774604,
+					level: 1
+				}],
+				Traits: [
+					"tconevo.gale_force1_armor",
+					"tconevo.null_almighty_armor",
+					"tconevo.celestial_armor",
+					"tconevo.infinitum",
+					"tconevo.eternity_armor",
+					"tasty_armor",
+					"tconevo.gale_force2_armor",
+					"heavy_armor",
+					"leveling_armor",
+					"concealed_armor"
+				]
+			},
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {
+					AS_Amulet_HolderMost: 2906828210824956519L,
+					AS_Amulet_HolderLeast: -7511792299273322319L
+				}
+			}
+		}
+	},
+	{
+		uid: "6e564492",
+		type: "item",
+		item: {
+			id: "conarm:leggings",
+			tag: {
+				TinkerData: {
+					Materials: [
+						"infinity_metal",
+						"pigiron",
+						"chaotic_metal"
+					],
+					Modifiers: [
+						"leveling_armor",
+						"concealed_armor"
+					]
+				},
+				Stats: {
+					Durability: 12348,
+					Defense: 93.0f,
+					Toughness: 1.0f,
+					FreeModifiers: 3
+				},
+				StatsOriginal: {
+					Durability: 12348,
+					Defense: 93.0f,
+					Toughness: 1.0f,
+					FreeModifiers: 3
+				},
+				Unbreakable: 1b,
+				ConArmEquipmentSlot: 3,
+				Modifiers: [{
+					CanonicalTraitLevel: 2,
+					identifier: "tconevo.gale_force_armor",
+					color: -11757164,
+					level: 3
+				},
+				{
+					identifier: "tconevo.null_almighty_armor",
+					color: -11757164,
+					level: 1
+				},
+				{
+					identifier: "tconevo.celestial_armor",
+					color: -11757164,
+					level: 1
+				},
+				{
+					identifier: "tconevo.infinitum",
+					color: -11757164,
+					level: 1
+				},
+				{
+					identifier: "tconevo.eternity_armor",
+					color: -11757164,
+					level: 1
+				},
+				{
+					identifier: "tasty_armor",
+					color: -1073509,
+					level: 1
+				},
+				{
+					identifier: "heavy_armor",
+					color: -10066330,
+					level: 1
+				},
+				{
+					identifier: "leveling_armor",
+					color: 16777215,
+					level: 1
+				},
+				{
+					identifier: "concealed_armor",
+					color: 16774604,
+					level: 1
+				}],
+				Traits: [
+					"tconevo.gale_force1_armor",
+					"tconevo.null_almighty_armor",
+					"tconevo.celestial_armor",
+					"tconevo.infinitum",
+					"tconevo.eternity_armor",
+					"tasty_armor",
+					"tconevo.gale_force2_armor",
+					"heavy_armor",
+					"leveling_armor",
+					"concealed_armor"
+				]
+			},
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {
+					AS_Amulet_HolderMost: 2906828210824956519L,
+					AS_Amulet_HolderLeast: -7511792299273322319L
+				}
+			}
+		}
+	},
+	{
+		uid: "65c4fc45",
+		type: "item",
+		item: {
+			id: "conarm:boots",
+			tag: {
+				TinkerData: {
+					Materials: [
+						"infinity_metal",
+						"pigiron",
+						"chaotic_metal"
+					],
+					Modifiers: [
+						"leveling_armor",
+						"concealed_armor"
+					]
+				},
+				Stats: {
+					Durability: 10702,
+					Defense: 93.0f,
+					Toughness: 1.0f,
+					FreeModifiers: 3
+				},
+				StatsOriginal: {
+					Durability: 10702,
+					Defense: 93.0f,
+					Toughness: 1.0f,
+					FreeModifiers: 3
+				},
+				Unbreakable: 1b,
+				ConArmEquipmentSlot: 2,
+				Modifiers: [{
+					CanonicalTraitLevel: 2,
+					identifier: "tconevo.gale_force_armor",
+					color: -11757164,
+					level: 3
+				},
+				{
+					identifier: "tconevo.null_almighty_armor",
+					color: -11757164,
+					level: 1
+				},
+				{
+					identifier: "tconevo.celestial_armor",
+					color: -11757164,
+					level: 1
+				},
+				{
+					identifier: "tconevo.infinitum",
+					color: -11757164,
+					level: 1
+				},
+				{
+					identifier: "tconevo.eternity_armor",
+					color: -11757164,
+					level: 1
+				},
+				{
+					identifier: "tasty_armor",
+					color: -1073509,
+					level: 1
+				},
+				{
+					identifier: "heavy_armor",
+					color: -10066330,
+					level: 1
+				},
+				{
+					identifier: "leveling_armor",
+					color: 16777215,
+					level: 1
+				},
+				{
+					identifier: "concealed_armor",
+					color: 16774604,
+					level: 1
+				}],
+				Traits: [
+					"tconevo.gale_force1_armor",
+					"tconevo.null_almighty_armor",
+					"tconevo.celestial_armor",
+					"tconevo.infinitum",
+					"tconevo.eternity_armor",
+					"tasty_armor",
+					"tconevo.gale_force2_armor",
+					"heavy_armor",
+					"leveling_armor",
+					"concealed_armor"
+				]
+			},
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {
+					AS_Amulet_HolderMost: 2906828210824956519L,
+					AS_Amulet_HolderLeast: -7511792299273322319L
+				}
+			}
+		}
+	},
+	{
+		uid: "aae22932",
+		type: "item",
+		item: {
+			id: "conarm:helmet",
+			tag: {
+				TinkerData: {
+					Materials: [
+						"wood",
+						"chaotic_metal",
+						"wood"
+					],
+					Modifiers: [
+						"leveling_armor",
+						"polished_armorwood",
+						"extratraitpigirontasty_armor_armor",
+						"creative",
+						"reinforced_armor",
+						"concealed_armor"
+					],
+					UsedModifiers: 5
+				},
+				Stats: {
+					Durability: 251,
+					Defense: 3.0f,
+					Toughness: 0.0f,
+					FreeModifiers: 0
+				},
+				StatsOriginal: {
+					Durability: 251,
+					Defense: 3.0f,
+					Toughness: 27.0f,
+					FreeModifiers: 3
+				},
+				ConArmEquipmentSlot: 5,
+				Unbreakable: 1b,
+				Modifiers: [{
+					identifier: "ecological_armor",
+					color: -7444965,
+					level: 1
+				},
+				{
+					identifier: "tconevo.celestial_armor",
+					color: -10066330,
+					level: 1
+				},
+				{
+					identifier: "heavy_armor",
+					color: -10066330,
+					level: 1
+				},
+				{
+					identifier: "leveling_armor",
+					color: 16777215,
+					level: 1
+				},
+				{
+					identifier: "polished_armorwood",
+					color: -7444965
+				},
+				{
+					identifier: "tasty_armor",
+					color: -1073509,
+					level: 1
+				},
+				{
+					identifier: "extratraitpigirontasty_armor_armor",
+					color: -1073509
+				},
+				{
+					identifier: "creative",
+					color: 0,
+					level: 2
+				},
+				{
+					identifier: "reinforced_armor",
+					color: 5254787,
+					level: 5
+				},
+				{
+					identifier: "concealed_armor",
+					color: 16774604,
+					level: 1
+				}],
+				Traits: [
+					"ecological_armor",
+					"tconevo.celestial_armor",
+					"heavy_armor",
+					"leveling_armor",
+					"tasty_armor",
+					"reinforced_armor",
+					"concealed_armor"
+				]
+			},
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			}
+		}
+	},
+	{
+		uid: "e886ca46",
+		type: "item",
+		item: {
+			id: "conarm:chestplate",
+			tag: {
+				TinkerData: {
+					Materials: [
+						"wood",
+						"chaotic_metal",
+						"wood"
+					],
+					Modifiers: [
+						"leveling_armor",
+						"polished_armorwood",
+						"extratraitpigirontasty_armor_armor",
+						"creative",
+						"reinforced_armor",
+						"concealed_armor"
+					],
+					UsedModifiers: 5
+				},
+				Stats: {
+					Durability: 362,
+					Defense: 3.0f,
+					Toughness: 0.0f,
+					FreeModifiers: 0
+				},
+				StatsOriginal: {
+					Durability: 362,
+					Defense: 3.0f,
+					Toughness: 27.0f,
+					FreeModifiers: 3
+				},
+				ConArmEquipmentSlot: 4,
+				Unbreakable: 1b,
+				Modifiers: [{
+					identifier: "ecological_armor",
+					color: -7444965,
+					level: 1
+				},
+				{
+					identifier: "tconevo.celestial_armor",
+					color: -10066330,
+					level: 1
+				},
+				{
+					identifier: "heavy_armor",
+					color: -10066330,
+					level: 1
+				},
+				{
+					identifier: "leveling_armor",
+					color: 16777215,
+					level: 1
+				},
+				{
+					identifier: "polished_armorwood",
+					color: -7444965
+				},
+				{
+					identifier: "tasty_armor",
+					color: -1073509,
+					level: 1
+				},
+				{
+					identifier: "extratraitpigirontasty_armor_armor",
+					color: -1073509
+				},
+				{
+					identifier: "creative",
+					color: 0,
+					level: 2
+				},
+				{
+					identifier: "reinforced_armor",
+					color: 5254787,
+					level: 5
+				},
+				{
+					identifier: "concealed_armor",
+					color: 16774604,
+					level: 1
+				}],
+				Traits: [
+					"ecological_armor",
+					"tconevo.celestial_armor",
+					"heavy_armor",
+					"leveling_armor",
+					"tasty_armor",
+					"reinforced_armor",
+					"concealed_armor"
+				]
+			},
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			}
+		}
+	},
+	{
+		uid: "ae574c67",
+		type: "item",
+		item: {
+			id: "conarm:leggings",
+			tag: {
+				TinkerData: {
+					Materials: [
+						"wood",
+						"chaotic_metal",
+						"wood"
+					],
+					Modifiers: [
+						"leveling_armor",
+						"polished_armorwood",
+						"extratraitpigirontasty_armor_armor",
+						"creative",
+						"reinforced_armor",
+						"concealed_armor"
+					],
+					UsedModifiers: 5
+				},
+				Stats: {
+					Durability: 341,
+					Defense: 3.0f,
+					Toughness: 0.0f,
+					FreeModifiers: 0
+				},
+				StatsOriginal: {
+					Durability: 341,
+					Defense: 3.0f,
+					Toughness: 27.0f,
+					FreeModifiers: 3
+				},
+				ConArmEquipmentSlot: 3,
+				Unbreakable: 1b,
+				Modifiers: [{
+					identifier: "ecological_armor",
+					color: -7444965,
+					level: 1
+				},
+				{
+					identifier: "tconevo.celestial_armor",
+					color: -10066330,
+					level: 1
+				},
+				{
+					identifier: "heavy_armor",
+					color: -10066330,
+					level: 1
+				},
+				{
+					identifier: "leveling_armor",
+					color: 16777215,
+					level: 1
+				},
+				{
+					identifier: "polished_armorwood",
+					color: -7444965
+				},
+				{
+					identifier: "tasty_armor",
+					color: -1073509,
+					level: 1
+				},
+				{
+					identifier: "extratraitpigirontasty_armor_armor",
+					color: -1073509
+				},
+				{
+					identifier: "creative",
+					color: 0,
+					level: 2
+				},
+				{
+					identifier: "reinforced_armor",
+					color: 5254787,
+					level: 5
+				},
+				{
+					identifier: "concealed_armor",
+					color: 16774604,
+					level: 1
+				}],
+				Traits: [
+					"ecological_armor",
+					"tconevo.celestial_armor",
+					"heavy_armor",
+					"leveling_armor",
+					"tasty_armor",
+					"reinforced_armor",
+					"concealed_armor"
+				]
+			},
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			}
+		}
+	},
+	{
+		uid: "f3422657",
+		type: "item",
+		item: {
+			id: "conarm:boots",
+			tag: {
+				TinkerData: {
+					Materials: [
+						"wood",
+						"chaotic_metal",
+						"wood"
+					],
+					Modifiers: [
+						"leveling_armor",
+						"polished_armorwood",
+						"extratraitpigirontasty_armor_armor",
+						"creative",
+						"reinforced_armor",
+						"concealed_armor"
+					],
+					UsedModifiers: 5
+				},
+				Stats: {
+					Durability: 296,
+					Defense: 3.0f,
+					Toughness: 0.0f,
+					FreeModifiers: 0
+				},
+				StatsOriginal: {
+					Durability: 296,
+					Defense: 3.0f,
+					Toughness: 27.0f,
+					FreeModifiers: 3
+				},
+				ConArmEquipmentSlot: 2,
+				Unbreakable: 1b,
+				Modifiers: [{
+					identifier: "ecological_armor",
+					color: -7444965,
+					level: 1
+				},
+				{
+					identifier: "tconevo.celestial_armor",
+					color: -10066330,
+					level: 1
+				},
+				{
+					identifier: "heavy_armor",
+					color: -10066330,
+					level: 1
+				},
+				{
+					identifier: "leveling_armor",
+					color: 16777215,
+					level: 1
+				},
+				{
+					identifier: "polished_armorwood",
+					color: -7444965
+				},
+				{
+					identifier: "tasty_armor",
+					color: -1073509,
+					level: 1
+				},
+				{
+					identifier: "extratraitpigirontasty_armor_armor",
+					color: -1073509
+				},
+				{
+					identifier: "creative",
+					color: 0,
+					level: 2
+				},
+				{
+					identifier: "reinforced_armor",
+					color: 5254787,
+					level: 5
+				},
+				{
+					identifier: "concealed_armor",
+					color: 16774604,
+					level: 1
+				}],
+				Traits: [
+					"ecological_armor",
+					"tconevo.celestial_armor",
+					"heavy_armor",
+					"leveling_armor",
+					"tasty_armor",
+					"reinforced_armor",
+					"concealed_armor"
+				]
+			},
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			}
+		}
+	}]
+}

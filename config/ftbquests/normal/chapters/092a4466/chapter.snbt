@@ -1,0 +1,12 @@
+{
+	title: "第0章",
+	icon: {
+		id: "akashictome:tome",
+		ForgeCaps: {
+			"astralsorcery:cap_item_amulet_holder": {}
+		}
+	},
+	always_invisible: false,
+	group: 0,
+	default_quest_shape: ""
+}

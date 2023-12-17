@@ -1,0 +1,229 @@
+{
+	title: "送你本书！",
+	x: 1.5d,
+	y: 0.0d,
+	shape: "circle",
+	text: [
+		""
+	],
+	dependencies: [
+		"80c38684"
+	],
+	tasks: [{
+		uid: "12188028",
+		type: "checkmark",
+		title: "送你本书",
+		icon: {
+			id: "akashictome:tome",
+			tag: {
+				"akashictome:data": {
+					botania: {
+						id: "botania:lexicon",
+						Count: 1,
+						Damage: 0s,
+						tag: {
+							"akashictome:definedMod": "botania"
+						},
+						ForgeCaps: {
+							"astralsorcery:cap_item_amulet_holder": {
+								AS_Amulet_HolderMost: 2906828210824956519L,
+								AS_Amulet_HolderLeast: -7511792299273322319L
+							}
+						}
+					},
+					tconstruct: {
+						id: "tconstruct:book",
+						Count: 1,
+						Damage: 0s,
+						tag: {
+							"akashictome:definedMod": "tconstruct"
+						},
+						ForgeCaps: {
+							"astralsorcery:cap_item_amulet_holder": {}
+						}
+					},
+					theoneprobe: {
+						id: "theoneprobe:probenote",
+						Count: 1,
+						Damage: 0s,
+						tag: {
+							"akashictome:definedMod": "theoneprobe"
+						},
+						ForgeCaps: {
+							"astralsorcery:cap_item_amulet_holder": {}
+						}
+					},
+					draconicevolution: {
+						id: "draconicevolution:info_tablet",
+						Count: 1,
+						Damage: 0s,
+						tag: {
+							"akashictome:definedMod": "draconicevolution"
+						}
+					},
+					astralsorcery1: {
+						id: "astralsorcery:itemjournal",
+						Count: 1,
+						Damage: 0s,
+						tag: {
+							"akashictome:definedMod": "astralsorcery1"
+						},
+						ForgeCaps: {
+							"astralsorcery:cap_item_amulet_holder": {}
+						}
+					},
+					bloodmagic: {
+						id: "guideapi:bloodmagic-guide",
+						Count: 1,
+						Damage: 0s,
+						tag: {
+							"akashictome:definedMod": "bloodmagic"
+						},
+						ForgeCaps: {
+							"astralsorcery:cap_item_amulet_holder": {}
+						}
+					},
+					conarm: {
+						id: "conarm:book",
+						Count: 1,
+						Damage: 0s,
+						tag: {
+							"akashictome:definedMod": "conarm",
+							"akashictome:is_morphing": 1b,
+							"akashictome:displayName": "盔甲锻造手册",
+							display: {
+								Name: "§r阿卡什宝典（§a盔甲锻造手册§r）"
+							},
+							mantle: {
+								book: {
+									page: "materials.neutronium"
+								}
+							}
+						},
+						ForgeCaps: {
+							"astralsorcery:cap_item_amulet_holder": {
+								AS_Amulet_HolderMost: 2906828210824956519L,
+								AS_Amulet_HolderLeast: -7511792299273322319L
+							}
+						}
+					}
+				},
+				"akashictome:is_morphing": 1b
+			},
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {
+					AS_Amulet_HolderMost: 2906828210824956519L,
+					AS_Amulet_HolderLeast: -7511792299273322319L
+				}
+			}
+		}
+	}],
+	rewards: [{
+		uid: "ab2692b0",
+		type: "item",
+		item: {
+			id: "akashictome:tome",
+			tag: {
+				"akashictome:data": {
+					botania: {
+						id: "botania:lexicon",
+						Count: 1,
+						Damage: 0s,
+						tag: {
+							"akashictome:definedMod": "botania"
+						},
+						ForgeCaps: {
+							"astralsorcery:cap_item_amulet_holder": {
+								AS_Amulet_HolderMost: 2906828210824956519L,
+								AS_Amulet_HolderLeast: -7511792299273322319L
+							}
+						}
+					},
+					tconstruct: {
+						id: "tconstruct:book",
+						Count: 1,
+						Damage: 0s,
+						tag: {
+							"akashictome:definedMod": "tconstruct"
+						},
+						ForgeCaps: {
+							"astralsorcery:cap_item_amulet_holder": {}
+						}
+					},
+					theoneprobe: {
+						id: "theoneprobe:probenote",
+						Count: 1,
+						Damage: 0s,
+						tag: {
+							"akashictome:definedMod": "theoneprobe"
+						},
+						ForgeCaps: {
+							"astralsorcery:cap_item_amulet_holder": {}
+						}
+					},
+					draconicevolution: {
+						id: "draconicevolution:info_tablet",
+						Count: 1,
+						Damage: 0s,
+						tag: {
+							"akashictome:definedMod": "draconicevolution"
+						}
+					},
+					astralsorcery1: {
+						id: "astralsorcery:itemjournal",
+						Count: 1,
+						Damage: 0s,
+						tag: {
+							"akashictome:definedMod": "astralsorcery1"
+						},
+						ForgeCaps: {
+							"astralsorcery:cap_item_amulet_holder": {}
+						}
+					},
+					bloodmagic: {
+						id: "guideapi:bloodmagic-guide",
+						Count: 1,
+						Damage: 0s,
+						tag: {
+							"akashictome:definedMod": "bloodmagic"
+						},
+						ForgeCaps: {
+							"astralsorcery:cap_item_amulet_holder": {}
+						}
+					},
+					conarm: {
+						id: "conarm:book",
+						Count: 1,
+						Damage: 0s,
+						tag: {
+							"akashictome:definedMod": "conarm",
+							"akashictome:is_morphing": 1b,
+							"akashictome:displayName": "盔甲锻造手册",
+							display: {
+								Name: "§r阿卡什宝典（§a盔甲锻造手册§r）"
+							},
+							mantle: {
+								book: {
+									page: "materials.neutronium"
+								}
+							}
+						},
+						ForgeCaps: {
+							"astralsorcery:cap_item_amulet_holder": {
+								AS_Amulet_HolderMost: 2906828210824956519L,
+								AS_Amulet_HolderLeast: -7511792299273322319L
+							}
+						}
+					}
+				},
+				"akashictome:is_morphing": 1b
+			},
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {
+					AS_Amulet_HolderMost: 2906828210824956519L,
+					AS_Amulet_HolderLeast: -7511792299273322319L
+				}
+			}
+		}
+	}]
+}

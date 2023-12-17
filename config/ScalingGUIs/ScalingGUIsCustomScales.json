@@ -1,0 +1,61 @@
+{
+  "guiScale": 0,
+  "hudScale": 0,
+  "tooltipScale": 0,
+  "customIndividualGuiScales": {
+    "net.doubledoordev.mtrm.gui.MTRMGui": {
+      "scale": 2,
+      "name": "net.doubledoordev.mtrm.gui.MTRMGui"
+    }
+  },
+  "customGroupGuiScales": {},
+  "loggedGuiClassNames": [
+    "mekanism.client.gui.GuiDictionary",
+    "vazkii.akashictome.client.GuiTome",
+    "slimeknights.mantle.client.gui.book.GuiBook",
+    "mezz.jei.config.JEIModConfigGui",
+    "com.blakebr0.extendedcrafting.client.gui.GuiHandheldTable",
+    "net.minecraft.client.gui.GuiYesNo",
+    "com.ezrol.terry.minecraft.defaultworldgenerator.gui.DefaultWorldSelectionList",
+    "com.ezrol.terry.minecraft.defaultworldgenerator.gui.GuiCreateCustomWorld",
+    "mcjty.theoneprobe.gui.GuiNote",
+    "com.feed_the_beast.ftblib.lib.gui.GuiWrapper",
+    "mezz.jei.gui.recipes.RecipesGui",
+    "invtweaks.InvTweaksGuiSettings",
+    "slimeknights.tconstruct.tools.common.client.GuiPartBuilder",
+    "slimeknights.tconstruct.tools.common.client.module.GuiButtonsPartCrafter",
+    "slimeknights.tconstruct.tools.common.client.GuiPatternChest",
+    "slimeknights.tconstruct.tools.common.client.GuiScalingChest",
+    "c4.conarm.client.gui.GuiArmorForge",
+    "c4.conarm.client.gui.GuiPreviewPanel",
+    "c4.conarm.client.gui.GuiButtonsArmorStation",
+    "slimeknights.tconstruct.tools.common.client.GuiToolForge",
+    "slimeknights.tconstruct.tools.common.client.GuiStencilTable",
+    "net.minecraft.client.gui.GuiMainMenu",
+    "net.minecraft.client.gui.GuiWorldSelection",
+    "net.minecraft.client.gui.GuiScreenWorking",
+    "hellfirepvp.modularmachinery.client.gui.GuiContainerItemBus",
+    "hellfirepvp.modularmachinery.client.gui.GuiMachineController",
+    "net.minecraft.client.gui.inventory.GuiInventory",
+    "net.minecraft.client.gui.inventory.GuiContainerCreative",
+    "net.minecraft.client.gui.GuiChat",
+    "net.doubledoordev.mtrm.gui.MTRMGui",
+    "net.minecraft.client.gui.GuiIngameMenu",
+    "net.minecraft.client.gui.GuiOptions",
+    "net.minecraft.client.gui.GuiVideoSettings",
+    "spazley.scalingguis.gui.guiconfig.GuiSelectStringSG",
+    "spazley.scalingguis.gui.guiconfig.GuiConfigSG$GuiNewScale",
+    "net.minecraftforge.fml.client.config.GuiConfig",
+    "spazley.scalingguis.gui.guiconfig.GuiConfigSG"
+  ],
+  "blacklistGuiClassNames": [
+    "slimeknights.tconstruct.smeltery.client.module.GuiSearedFurnaceSideInventory",
+    "slimeknights.tconstruct.smeltery.client.module.GuiSmelterySideInventory",
+    "slimeknights.tconstruct.tools.common.client.module.GuiButtonsStencilTable",
+    "slimeknights.tconstruct.tools.common.client.module.GuiButtonsToolStation",
+    "slimeknights.tconstruct.tools.common.client.module.GuiInfoPanel",
+    "slimeknights.tconstruct.tools.common.client.module.GuiSideInventory",
+    "slimeknights.tconstruct.tools.common.client.module.GuiTinkerTabs"
+  ],
+  "dynamicGuiScales": []
+}

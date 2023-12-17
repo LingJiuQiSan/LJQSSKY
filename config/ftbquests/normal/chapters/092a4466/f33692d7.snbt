@@ -1,0 +1,151 @@
+{
+	x: 0.0d,
+	y: -1.5d,
+	dependencies: [
+		"80c38684"
+	],
+	tasks: [{
+		uid: "87bac48b",
+		type: "checkmark",
+		title: "送你点东西！"
+	}],
+	rewards: [{
+		uid: "db45c1cf",
+		type: "item",
+		item: {
+			id: "randomthings:timeinabottle",
+			tag: {
+				timeData: {}
+			},
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			}
+		}
+	},
+	{
+		uid: "111844c3",
+		type: "item",
+		item: {
+			id: "betterbuilderswands:wandunbreakable",
+			Damage: 14s,
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			}
+		}
+	},
+	{
+		uid: "b0eac191",
+		type: "item",
+		item: {
+			id: "extrautils2:itemcreativedestructionwand",
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			}
+		}
+	},
+	{
+		uid: "0292196a",
+		type: "item",
+		item: {
+			id: "tcomplement:chisel",
+			tag: {
+				TinkerData: {
+					Materials: [
+						"wood",
+						"wood"
+					],
+					Modifiers: [
+						"toolleveling",
+						"creative",
+						"reinforced",
+						"hitech"
+					],
+					UsedModifiers: 6
+				},
+				Stats: {
+					Durability: 135,
+					HarvestLevel: 0,
+					Attack: 2.0f,
+					MiningSpeed: 2.0f,
+					AttackSpeedMultiplier: 1.0f,
+					FreeModifiers: 0
+				},
+				StatsOriginal: {
+					Durability: 135,
+					HarvestLevel: 0,
+					Attack: 2.0f,
+					MiningSpeed: 2.0f,
+					AttackSpeedMultiplier: 1.0f,
+					FreeModifiers: 3
+				},
+				Special: {
+					Categories: [
+						"aoe",
+						"weapon",
+						"chisel",
+						"tool"
+					]
+				},
+				chiseldata: {
+					preview: 0,
+					selectslot: 98,
+					targetslot: 40,
+					rotate: 0b,
+					target: {
+						id: "chisel:stonebrick2",
+						Count: 1,
+						Damage: 7s
+					}
+				},
+				Modifiers: [{
+					identifier: "ecological",
+					color: -7444965,
+					level: 1
+				},
+				{
+					identifier: "toolleveling",
+					color: 16777215,
+					level: 1,
+					xp: 64,
+					bonus_modifiers: 0
+				},
+				{
+					identifier: "creative",
+					color: 0,
+					level: 3
+				},
+				{
+					identifier: "reinforced",
+					color: 5254787,
+					level: 5
+				},
+				{
+					identifier: "hitech",
+					color: 13863239
+				}],
+				Traits: [
+					"ecological",
+					"toolleveling",
+					"reinforced"
+				],
+				Unbreakable: 1b
+			},
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {
+					AS_Amulet_HolderMost: 2906828210824956519L,
+					AS_Amulet_HolderLeast: -7511792299273322319L
+				}
+			}
+		}
+	},
+	{
+		uid: "4b228e84",
+		type: "item",
+		item: {
+			id: "modularmachinery:machine_projector",
+			ForgeCaps: {
+				"astralsorcery:cap_item_amulet_holder": {}
+			}
+		}
+	}]
+}
