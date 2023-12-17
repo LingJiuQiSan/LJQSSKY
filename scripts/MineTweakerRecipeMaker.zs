@@ -13,12 +13,14 @@
 
 // ================================================================================
 //#MARKER REMOVE
+recipes.remove(<torcherino:blocktorcherino>);
 
 // ================================================================================
 //#MARKER REMOVE SHAPELESS
 
 // ================================================================================
 //#MARKER REMOVE SHAPED
+recipes.removeShaped(<torcherino:blocktorcherino>, [[null, <minecraft:clock>, null], [<minecraft:clock>, <minecraft:torch>, <minecraft:clock>], [null, <minecraft:clock>, null]]);
 
 // ================================================================================
 //#MARKER ADD
@@ -28,4 +30,7 @@
 
 // ================================================================================
 //#MARKER ADD SHAPED
+recipes.addShaped(<torcherino:blocktriplecompressedtorcherino>, [[<torcherino:blockdoublecompressedtorcherino>, <torcherino:blockdoublecompressedtorcherino>, <torcherino:blockdoublecompressedtorcherino>], [<torcherino:blockdoublecompressedtorcherino>, <torcherino:blockdoublecompressedtorcherino>, <torcherino:blockdoublecompressedtorcherino>], [<torcherino:blockdoublecompressedtorcherino>, <torcherino:blockdoublecompressedtorcherino>, <torcherino:blockdoublecompressedtorcherino>]]);
+recipes.addShaped(<torcherino:blockdoublecompressedtorcherino>, [[<torcherino:blockcompressedtorcherino>, <torcherino:blockcompressedtorcherino>, <torcherino:blockcompressedtorcherino>], [<torcherino:blockcompressedtorcherino>, <torcherino:blockcompressedtorcherino>, <torcherino:blockcompressedtorcherino>], [<torcherino:blockcompressedtorcherino>, <torcherino:blockcompressedtorcherino>, <torcherino:blockcompressedtorcherino>]]);
+recipes.addShaped(<torcherino:blockcompressedtorcherino>, [[<torcherino:blocktorcherino>, <torcherino:blocktorcherino>, <torcherino:blocktorcherino>], [<torcherino:blocktorcherino>, <torcherino:blocktorcherino>, <torcherino:blocktorcherino>], [<torcherino:blocktorcherino>, <torcherino:blocktorcherino>, <torcherino:blocktorcherino>]]);
 
