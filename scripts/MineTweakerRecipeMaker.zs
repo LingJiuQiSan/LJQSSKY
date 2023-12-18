@@ -13,7 +13,6 @@
 
 // ================================================================================
 //#MARKER REMOVE
-recipes.remove(<torcherino:blocktorcherino>);
 
 // ================================================================================
 //#MARKER REMOVE SHAPELESS
@@ -27,6 +26,9 @@ recipes.removeShaped(<torcherino:blocktorcherino>, [[null, <minecraft:clock>, nu
 
 // ================================================================================
 //#MARKER ADD SHAPELESS
+recipes.addShapeless(<torcherino:blockdoublecompressedtorcherino> * 9, [<torcherino:blocktriplecompressedtorcherino>]);
+recipes.addShapeless(<torcherino:blockcompressedtorcherino> * 9, [<torcherino:blockdoublecompressedtorcherino>]);
+recipes.addShapeless(<torcherino:blocktorcherino> * 9, [<torcherino:blockcompressedtorcherino>]);
 
 // ================================================================================
 //#MARKER ADD SHAPED
